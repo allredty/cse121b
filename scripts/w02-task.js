@@ -15,16 +15,12 @@ const yearElement = document.querySelector("#year");
 const imageElement = document.querySelector(`img`);
 
 /* Step 4 - Adding Content */
-/*imageElement.innerHTML = fullName;
+imageElement.innerHTML = fullName;
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = currentYear;
 imageElement.setAttribute("src", profilePicture);
 imageElement.setAttribute("alt", `Profile image of ${fullName}`);
-*/
-imageElement.setAttribute("src", `${profilePicture}`);
-nameElement.innerHTML = (`<strong>${fullName}</strong>`)
-yearElement.innerHTML = (`${currentYear}`)
-imageElement.setAttribute("alt", `profile image of ${fullName}`);
+
 
 /* Step 5 - Array */
 let fav_food = ["Enchiladas", "Taco Bell", "Smoothies"];
