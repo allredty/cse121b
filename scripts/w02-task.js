@@ -6,7 +6,7 @@
 const fullName = "Tyler Allred"
 const Year = new Date();
 let currentYear = Year.getFullYear();
-let profilePicture = ("images/me.jpg");
+let profilePicture = ("./images/tyler.jpg");
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById("name");
